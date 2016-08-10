@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tarot/gimeijs/issues"
   },
-  "homepage": "https://github.com/tarot/gimeijs#readme"
+  "homepage": "https://github.com/tarot/gimeijs#readme",
+  "dependencies": {
+    "js-yaml": "^3.6.1"
+  }
 }
