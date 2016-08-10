@@ -1,0 +1,19 @@
+{
+  "name": "gimeijs",
+  "version": "1.0.0",
+  "description": "random Japanese name and address generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tarot/gimeijs.git"
+  },
+  "author": "tarot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarot/gimeijs/issues"
+  },
+  "homepage": "https://github.com/tarot/gimeijs#readme"
+}
