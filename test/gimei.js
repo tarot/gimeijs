@@ -2,7 +2,7 @@
 
 describe('Gimei', () => {
     describe('.address()', () => {
-        it('呼び出しごとに新しいインスタンが作られること', () => {
+        it('呼び出しごとに新しいインスタンスが作られること', () => {
             assert(Gimei.address() !== Gimei.address());
         });
 
@@ -30,7 +30,7 @@ describe('Gimei', () => {
     });
 
     describe('.name()', () => {
-        it('呼び出しごとに新しいインスタンが作られること', () => {
+        it('呼び出しごとに新しいインスタンスが作られること', () => {
             assert(Gimei.name() !== Gimei.name());
         });
 
@@ -61,7 +61,7 @@ describe('Gimei', () => {
             assert(Gimei.name().constructor === Gimei.male().constructor);
         });
 
-        it('呼び出しごとに新しいインスタンが作られること', () => {
+        it('呼び出しごとに新しいインスタンスが作られること', () => {
             assert(Gimei.male() !== Gimei.male());
         });
     });
@@ -71,7 +71,7 @@ describe('Gimei', () => {
             assert(Gimei.female().constructor === Gimei.female().constructor);
         });
 
-        it('呼び出しごとに新しいインスタンが作られること', () => {
+        it('呼び出しごとに新しいインスタンスが作られること', () => {
             assert(Gimei.female() !== Gimei.female());
         });
     });
