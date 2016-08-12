@@ -11,3 +11,6 @@ const katakana = '\\u30a0-\\u30ff';
 const zenkaku = hiragana + katakana + kanji;
 
 Object.assign(global, {hiragana, katakana, zenkaku});
+
+global.Gimei = require('../index.js');
+global.assert = require('power-assert');
