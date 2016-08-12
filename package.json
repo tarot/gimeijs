@@ -18,5 +18,10 @@
   "homepage": "https://github.com/tarot/gimeijs#readme",
   "dependencies": {
     "js-yaml": "^3.6.1"
+  },
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
   }
 }
