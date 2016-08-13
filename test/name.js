@@ -57,11 +57,11 @@ describe('Gimei.name()', () => {
         });
 
         describe('#female', () => {
-            it('男性の場合は true を返すこと', () => {
+            it('男性の場合は false を返すこと', () => {
                 assert(!Gimei.male().first.female);
             });
 
-            it('女性の場合は false を返すこと', () => {
+            it('女性の場合は true を返すこと', () => {
                 assert(Gimei.female().first.female);
             });
         });
